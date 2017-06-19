@@ -21,7 +21,10 @@ def qset(data):
 import random
 d = []
 n = 0
-while n < 200000:
-    d.append(random.randint(0, 200000))
+while n < 2000000:
+    d.append(random.randint(0, 2000000))
     n += 1
+import time
+s = time.time()
 print(qsort(d)[:20])
+print(time.time() - s)

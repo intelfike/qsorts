@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	data := arr1(2000000) //シャッフル済み配列生成　引数は要素数
+	data := arr1(200000) //シャッフル済み配列生成　引数は要素数
 	s := time.Now()
 	Qsort(data) //ソートの実行
 	fmt.Println(time.Now().Sub(s))

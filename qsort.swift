@@ -1,4 +1,5 @@
 import Glibc
+
 var data:[Int] = []
 let length = 200000
 for n in 0...length{
